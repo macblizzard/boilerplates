@@ -10,6 +10,7 @@
           - curl 
           - gnupg-agent
           - software-properties-common
+          - net-tools
         update_cache: yes
     - name: add apt-key
       apt_key:
